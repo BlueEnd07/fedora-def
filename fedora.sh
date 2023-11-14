@@ -51,10 +51,12 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak update
 #install app
 sudo dnf install blender vlc gnome-tweak-tool chrome-gnome-shell gnome-extensions-app kdeconnectd steam -y
-flatpak install flathub net.lutris.Lutris -yflatpak install flathub com.discordapp.Discord -y
+flatpak install flathub com.discordapp.Discord -y
 flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub md.obsidian.Obsidian -y
 flatpak install flathub com.brave.Browser -y
+flatpak install flathub com.heroicgameslauncher.hgl -y
+flatpak install flathub com.discordapp.Discord -y
 
 
 #Speed Boost
